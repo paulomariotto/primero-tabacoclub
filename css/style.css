@@ -240,16 +240,25 @@ strong {
     left: 25px;
   }
 
+  aside {
+    position: relative;
+    top: 130px;
+    margin-bottom: -90px;
+    width: 100%;
+  }
   aside .container .row .col-md-5 {
     order: 2;
     text-align: center;
   }
   aside .container .row .col-md-5 h1 {
     font-size: 40px;
+    position: relative;
+    top: -40px;
   }
   aside .container .row .col-md-5 p {
     font-size: 16px;
     position: relative;
+    top: -60px;
   }
   aside .container .row .col-md-7 {
     position: relative;
@@ -262,102 +271,147 @@ aside .container .row .col-md-7 .img-aside4,
 aside .container .row .col-md-7 .img-aside5,
 aside .container .row .col-md-7 .img-aside6 {
     width: 90%;
-    height: 300px;
+    height: 100%;
+  }
+  aside .container .row .col-md-7 .carouselm7 .carousel-inner {
+    height: 240px;
+  }
+
+  .img-masvendidos {
+    width: 55%;
+  }
+  .img-masvendidos h4 {
+    font-size: 15px;
+  }
+
+  .img-c-2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  section .container .row {
+    font-size: 14px;
+  }
+  section .container .row .col-md-3 {
+    width: 125px;
+  }
+  section .container .row .col-md-3 .ul-nav-menu {
+    width: 125px;
+  }
+  section .container .row .col-md-9 {
+    width: 442px;
+    position: relative;
+    bottom: 0px;
+    left: 5px;
+  }
+  section .container .row .col-md-9 .ul-cards li .card-deck .card {
+    width: 80px;
+    height: 400px;
+  }
+
+  footer {
+    position: relative;
+    top: 97px;
+    height: 1030px;
+  }
+  footer .container .row .col {
+    position: relative;
+    top: -8px;
+  }
+  footer .container .row .col a {
+    position: relative;
+    top: 0px;
+  }
+  footer .footer-navegacion .row .md4-navegacion {
+    order: 1;
+    position: relative;
+    top: -54px;
+  }
+  footer .footer-navegacion .row .md4-navegacion .container h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+  footer .footer-navegacion .row .md4-navegacion .container .row {
+    margin: auto;
+  }
+  footer .footer-navegacion .row .md4-navegacion .container .row .navegacion1 {
+    text-align: center;
+  }
+  footer .footer-navegacion .row .md4-navegacion .container .row .navegacion1 .ul-navegacion {
+    width: 190px;
+    position: relative;
+    left: 0px;
+  }
+  footer .footer-navegacion .row .md4-navegacion .container .row .navegacion2 {
+    text-align: center;
+  }
+  footer .footer-navegacion .row .md4-navegacion .container .row .navegacion2 .ul-navegacion {
+    width: 180px;
+    position: relative;
+    bottom: 174px;
+    left: 128px;
+  }
+  footer .footer-navegacion .row .md4-mediosdepago {
+    order: 3;
+    text-align: center;
+    position: relative;
+    top: -130px;
+  }
+  footer .footer-navegacion .row .md4-contactanos {
+    order: 2;
+    text-align: center;
+    position: relative;
+    bottom: 135px;
+  }
+  footer .pie-footer p {
+    font-size: 10px;
+    margin-bottom: 0rem;
+    position: absolute;
+    bottom: 0px;
+  }
+  footer .pie-footer .whats1 {
+    font-size: 15px;
+    position: relative;
+    bottom: -130px;
+    right: 10px;
+  }
+  footer .pie-footer .whats2 {
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+    right: 10px;
+  }
+
+  .carousel-dimensiontotal {
+    margin-left: 20px;
+  }
+
+  .h4-carousel {
+    font-size: 16px;
+  }
+
+  .section-carousel {
+    position: relative;
+    top: 0px;
+    height: 28%;
+  }
+  .section-carousel .carousel {
+    top: -36px;
+  }
+  .section-carousel .carousel .carousel-indicators {
+    position: absolute;
+    bottom: -12px;
+  }
+
+  .img-carousel {
+    width: 130px;
+    height: 150px;
+  }
+
+  .footer-sections {
+    top: -430px;
   }
 }
-.img-masvendidos {
-  width: 55%;
-}
-
-.img-c-2 {
-  width: 100px;
-  height: 100px;
-}
-
-section .container .row {
-  font-size: 14px;
-}
-section .container .row .col-md-3 {
-  width: 125px;
-}
-section .container .row .col-md-3 .ul-nav-menu {
-  width: 125px;
-}
-section .container .row .col-md-9 {
-  width: 442px;
-  position: relative;
-  bottom: 0px;
-  left: 5px;
-}
-section .container .row .col-md-9 .ul-cards li .card-deck .card {
-  width: 80px;
-  height: 400px;
-}
-
-footer {
-  position: relative;
-  top: 0;
-}
-
-.footer-navegacion .row .md4-navegacion {
-  order: 1;
-}
-.footer-navegacion .row .md4-navegacion .container h5 {
-  text-align: center;
-}
-.footer-navegacion .row .md4-navegacion .container .row {
-  margin: auto;
-}
-.footer-navegacion .row .md4-navegacion .container .row .navegacion1 {
-  text-align: center;
-}
-.footer-navegacion .row .md4-navegacion .container .row .navegacion1 .ul-navegacion {
-  width: 190px;
-  position: relative;
-  left: 30px;
-}
-.footer-navegacion .row .md4-navegacion .container .row .navegacion2 {
-  text-align: center;
-}
-.footer-navegacion .row .md4-navegacion .container .row .navegacion2 .ul-navegacion {
-  width: 180px;
-  position: relative;
-  bottom: 174px;
-  left: 235px;
-}
-.footer-navegacion .row .md4-mediosdepago {
-  order: 3;
-  text-align: center;
-  position: relative;
-  bottom: 30px;
-}
-.footer-navegacion .row .md4-contactanos {
-  order: 2;
-  text-align: center;
-  position: relative;
-  bottom: 65px;
-}
-.footer-navegacion .pie-footer p {
-  font-size: 12px;
-}
-
-.carousel-dimensiontotal {
-  margin-left: 35px;
-}
-
-.h4-carousel {
-  font-size: 18px;
-}
-
-.img-carousel {
-  width: 160px;
-  height: 180px;
-}
-
-.footer-sections {
-  top: -430px;
-}
-
 /*Table Styles*/
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   aside .container .row .col-md-5 {
@@ -384,30 +438,30 @@ aside .container .row .col-md-7 .img-aside6 {
     width: 90%;
     height: 300px;
   }
-}
-section .container .row {
-  font-size: 14px;
-}
-section .container .row .col-md-3 {
-  width: 125px;
-}
-section .container .row .col-md-3 .ul-nav-menu {
-  width: 125px;
-}
-section .container .row .col-md-9 {
-  width: 442px;
-  position: relative;
-  bottom: 442px;
-  left: 136px;
-}
-section .container .row .col-md-9 .ul-cards li .card-deck .card {
-  width: 80px;
-  height: 384px;
-}
-section .footer-sections {
-  top: -430px;
-}
 
+  section .container .row {
+    font-size: 14px;
+  }
+  section .container .row .col-md-3 {
+    width: 125px;
+  }
+  section .container .row .col-md-3 .ul-nav-menu {
+    width: 125px;
+  }
+  section .container .row .col-md-9 {
+    width: 442px;
+    position: relative;
+    bottom: 442px;
+    left: 136px;
+  }
+  section .container .row .col-md-9 .ul-cards li .card-deck .card {
+    width: 80px;
+    height: 384px;
+  }
+  section .footer-sections {
+    top: -430px;
+  }
+}
 /*Table Desktop Style*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .img-c-2 {
