@@ -230,7 +230,11 @@ strong {
     justify-content: flex-end;
 }
 
-
+.img-quienessomos {
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+}
 
 
 /* medias Querys */
@@ -534,7 +538,10 @@ strong {
     right: 15px;
     bottom: 60px;
 }
-
+.img-quienessomos {
+    width: 410px;
+    height: 150px;
+}
 
 }
 
@@ -623,7 +630,12 @@ strong {
         }
     }
 
-
+    .img-quienessomos {
+        margin: 0 auto;
+        width: 515px;
+        height: 200px;
+    
+    }
 
 }
 
@@ -734,6 +746,13 @@ strong {
 
     .footer-sections {
         top: 0px;
+    }
+
+    .img-quienessomos {
+        margin: 0 auto;
+        width: 500px;
+        height: 210px;
+    
     }
 }
 
@@ -869,4 +888,6 @@ strong {
     .footer-sections {
         top: 0px;
     }
+
+
 }

@@ -223,6 +223,12 @@ strong {
   justify-content: flex-end;
 }
 
+.img-quienessomos {
+  background-size: cover;
+  width: 700px;
+  height: 300px;
+}
+
 /* medias Querys */
 /*mobile*/
 @media only screen and (max-width: 576px) {
@@ -441,6 +447,11 @@ aside .container .row .col-md-7 .img-aside6 {
     right: 15px;
     bottom: 60px;
   }
+
+  .img-quienessomos {
+    width: 410px;
+    height: 150px;
+  }
 }
 /*Table Styles*/
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -490,6 +501,12 @@ aside .container .row .col-md-7 .img-aside6 {
   }
   section .footer-sections {
     top: -430px;
+  }
+
+  .img-quienessomos {
+    margin: 0 auto;
+    width: 515px;
+    height: 200px;
   }
 }
 /*Table Desktop Style*/
@@ -561,6 +578,12 @@ aside .container .row .col-md-7 .img-aside6 {
 
   .footer-sections {
     top: 0px;
+  }
+
+  .img-quienessomos {
+    margin: 0 auto;
+    width: 500px;
+    height: 210px;
   }
 }
 /*extra large*/
