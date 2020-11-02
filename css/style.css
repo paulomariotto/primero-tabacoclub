@@ -293,20 +293,33 @@ aside .container .row .col-md-7 .img-aside6 {
     font-size: 14px;
   }
   section .container .row .col-md-3 {
-    width: 125px;
+    width: 90px;
+    position: relative;
+    left: -5px;
   }
   section .container .row .col-md-3 .ul-nav-menu {
-    width: 125px;
+    width: 90px;
+    height: 100px;
   }
   section .container .row .col-md-9 {
-    width: 442px;
     position: relative;
-    bottom: 0px;
-    left: 5px;
+    top: -116px;
+    left: 93px;
+  }
+  section .container .row .col-md-9 .ul-cards li {
+    display: inline;
+  }
+  section .container .row .col-md-9 .ul-cards li .card-deck {
+    display: flex;
   }
   section .container .row .col-md-9 .ul-cards li .card-deck .card {
-    width: 80px;
-    height: 400px;
+    width: 100px;
+    height: 200x;
+    font-size: 12px;
+    text-align: center;
+  }
+  section .container .row .col-md-9 .ul-cards li .card-deck .card .card-body h5 {
+    font-size: 15px;
   }
 
   footer {
@@ -325,7 +338,7 @@ aside .container .row .col-md-7 .img-aside6 {
   footer .footer-navegacion .row .md4-navegacion {
     order: 1;
     position: relative;
-    top: -54px;
+    top: 0px;
   }
   footer .footer-navegacion .row .md4-navegacion .container h5 {
     font-size: 18px;
@@ -348,20 +361,23 @@ aside .container .row .col-md-7 .img-aside6 {
   footer .footer-navegacion .row .md4-navegacion .container .row .navegacion2 .ul-navegacion {
     width: 180px;
     position: relative;
-    bottom: 174px;
+    bottom: 146px;
     left: 128px;
   }
   footer .footer-navegacion .row .md4-mediosdepago {
     order: 3;
     text-align: center;
     position: relative;
-    top: -130px;
+    top: -50px;
+  }
+  footer .footer-navegacion .row .md4-mediosdepago .ul-navegacion .li-img-mpago .img-mpago {
+    width: 70px;
   }
   footer .footer-navegacion .row .md4-contactanos {
     order: 2;
     text-align: center;
     position: relative;
-    bottom: 135px;
+    bottom: 80px;
   }
   footer .pie-footer p {
     font-size: 10px;
@@ -369,17 +385,17 @@ aside .container .row .col-md-7 .img-aside6 {
     position: absolute;
     bottom: 0px;
   }
-  footer .pie-footer .whats1 {
+  footer .icono-whats-1 {
     font-size: 15px;
-    position: relative;
-    bottom: -130px;
-    right: 10px;
+    position: fixed;
+    right: 108px;
+    bottom: 10px;
   }
-  footer .pie-footer .whats2 {
+  footer .icono-whats-2 {
     font-size: 15px;
-    position: relative;
-    bottom: 0;
-    right: 10px;
+    position: fixed;
+    right: 100px;
+    bottom: 60px;
   }
 
   .carousel-dimensiontotal {
@@ -409,7 +425,21 @@ aside .container .row .col-md-7 .img-aside6 {
   }
 
   .footer-sections {
-    top: -430px;
+    top: 0px;
+  }
+
+  .icono-whats-1-index {
+    font-size: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+  }
+
+  .icono-whats-2-index {
+    font-size: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 60px;
   }
 }
 /*Table Styles*/
