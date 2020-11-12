@@ -296,7 +296,7 @@ aside .container .row .col-md-7 .img-aside6 {
   }
 
   section .container .row {
-    font-size: 14px;
+    font-size: 12px;
   }
   section .container .row .col-md-3 {
     width: 90px;
@@ -305,27 +305,33 @@ aside .container .row .col-md-7 .img-aside6 {
   }
   section .container .row .col-md-3 .ul-nav-menu {
     width: 90px;
-    height: 100px;
+    height: 130px;
   }
   section .container .row .col-md-9 {
+    text-align: center;
     position: relative;
-    top: -116px;
+    top: -146px;
     left: 93px;
+  }
+  section .container .row .col-md-9 .ul-cards {
+    text-align: center;
   }
   section .container .row .col-md-9 .ul-cards li {
     display: inline;
   }
   section .container .row .col-md-9 .ul-cards li .card-deck {
     display: flex;
+    justify-content: space-around;
+    width: 85%;
   }
   section .container .row .col-md-9 .ul-cards li .card-deck .card {
     width: 100px;
-    height: 200x;
+    height: 197px;
     font-size: 12px;
     text-align: center;
   }
   section .container .row .col-md-9 .ul-cards li .card-deck .card .card-body h5 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   footer {
@@ -391,18 +397,6 @@ aside .container .row .col-md-7 .img-aside6 {
     position: absolute;
     bottom: 0px;
   }
-  footer .icono-whats-1 {
-    font-size: 15px;
-    position: fixed;
-    right: 108px;
-    bottom: 10px;
-  }
-  footer .icono-whats-2 {
-    font-size: 15px;
-    position: fixed;
-    right: 100px;
-    bottom: 60px;
-  }
 
   .carousel-dimensiontotal {
     margin-left: 20px;
@@ -452,6 +446,20 @@ aside .container .row .col-md-7 .img-aside6 {
     width: 410px;
     height: 150px;
   }
+
+  .icono-whats-1 {
+    font-size: 15px;
+    position: fixed;
+    right: px;
+    bottom: 10px;
+  }
+
+  .icono-whats-2 {
+    font-size: 15px;
+    position: fixed;
+    right: 98px;
+    bottom: 60px;
+  }
 }
 /*Table Styles*/
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -480,6 +488,18 @@ aside .container .row .col-md-7 .img-aside6 {
     height: 300px;
   }
 
+  .img-masvendidos {
+    width: 51%;
+  }
+  .img-masvendidos h4 {
+    font-size: 16px;
+  }
+
+  .img-c-2 {
+    width: 150px;
+    height: 150px;
+  }
+
   section .container .row {
     font-size: 14px;
   }
@@ -488,25 +508,75 @@ aside .container .row .col-md-7 .img-aside6 {
   }
   section .container .row .col-md-3 .ul-nav-menu {
     width: 125px;
+    height: 200px;
   }
   section .container .row .col-md-9 {
+    text-align: center;
     width: 442px;
     position: relative;
-    bottom: 442px;
+    bottom: 216px;
     left: 136px;
+  }
+  section .container .row .col-md-9 .ul-cards {
+    text-align: center;
   }
   section .container .row .col-md-9 .ul-cards li .card-deck .card {
     width: 80px;
-    height: 384px;
+    height: 240px;
   }
-  section .footer-sections {
-    top: -430px;
+  section .container .row .col-md-9 .ul-cards li .card-deck .card .card-body h5 {
+    font-size: 14px;
+  }
+
+  .carousel-dimensiontotal {
+    margin-left: 30px;
+  }
+
+  .h4-carousel {
+    font-size: 16px;
+  }
+
+  .section-carousel {
+    position: relative;
+    top: 0px;
+    height: 28%;
+  }
+  .section-carousel .carousel {
+    top: -36px;
+  }
+  .section-carousel .carousel .carousel-indicators {
+    position: absolute;
+    bottom: -12px;
+  }
+
+  .img-carousel {
+    width: 135px;
+    height: 165px;
+  }
+
+  .footer-sections {
+    top: 15px;
+    text-align: center;
   }
 
   .img-quienessomos {
     margin: 0 auto;
     width: 515px;
     height: 200px;
+  }
+
+  .icono-whats-1-index {
+    font-size: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+  }
+
+  .icono-whats-2-index {
+    font-size: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 60px;
   }
 }
 /*Table Desktop Style*/
@@ -519,7 +589,7 @@ aside .container .row .col-md-7 .img-aside6 {
   section .container .row {
     display: flex;
     flex-wrap: wrap;
-    font-size: 14px;
+    font-size: 12px;
   }
   section .container .row .col-md-3 {
     width: 150px;
@@ -528,14 +598,21 @@ aside .container .row .col-md-7 .img-aside6 {
     width: 150px;
   }
   section .container .row .col-md-9 {
+    text-align: center;
     width: 442px;
     position: relative;
     bottom: 0px;
     left: 0px;
   }
+  section .container .row .col-md-9 .ul-cards {
+    text-align: center;
+  }
   section .container .row .col-md-9 .ul-cards li .card-deck .card {
     width: 80px;
-    height: 384px;
+    height: 260px;
+  }
+  section .container .row .col-md-9 .ul-cards li .card-deck .card .card-body h5 {
+    font-size: 15px;
   }
 
   .footer-navegacion .row .md4-navegacion {
@@ -585,6 +662,20 @@ aside .container .row .col-md-7 .img-aside6 {
     width: 500px;
     height: 210px;
   }
+
+  .icono-whats-1-index {
+    font-size: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+  }
+
+  .icono-whats-2-index {
+    font-size: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 60px;
+  }
 }
 /*extra large*/
 @media only screen and (min-width: 992px) {
@@ -618,14 +709,18 @@ aside .container .row .col-md-7 .img-aside6 {
     width: 200px;
   }
   section .container .row .col-md-9 {
+    text-align: center;
     width: 442px;
     position: relative;
     bottom: 0px;
     left: 0px;
   }
+  section .container .row .col-md-9 .ul-cards {
+    text-align: center;
+  }
   section .container .row .col-md-9 .ul-cards li .card-deck .card {
     width: 80px;
-    height: 420px;
+    height: 350px;
   }
 
   .footer-navegacion .row .md4-navegacion {
@@ -670,6 +765,20 @@ aside .container .row .col-md-7 .img-aside6 {
 
   .footer-sections {
     top: 0px;
+  }
+
+  .icono-whats-1-index {
+    font-size: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+  }
+
+  .icono-whats-2-index {
+    font-size: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 60px;
   }
 }
 
